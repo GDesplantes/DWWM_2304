@@ -1,0 +1,32 @@
+L’utilisateur est invité à saisir son prénom dans la console.
+
+Le programme affiche “Bonjour “ suivi du prénom saisi.
+
+Exemple de fonctionnement du programme en mode Console :
+
+VARIABLES
+
+
+
+prenom est une chaîne de caractères
+
+
+
+TRAITEMENT
+
+
+
+ecrire "Veuillez saisr votre prénom"
+
+
+
+lIRE prenom
+
+
+
+ECRIRE "Bonjour " , prenom , "."
+
+
+
+FIN TRAITEMENT
+

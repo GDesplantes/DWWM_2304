@@ -1,0 +1,26 @@
+﻿
+
+L’utilisateur est invité à saisir 2 nombres entier.
+
+Le programme calcule la moyenne des 2 nombres et affiche le résultat sous forme de nombre décimal.
+
+Exemple de fonctionnement du programme en mode Console :
+
+
+VARIABLES
+
+nb1 est un entier
+
+nb2 est un entier
+
+moyenne est un réel
+
+TRAITEMENT	
+
+Ecrire "Veuillez saisir la premier nombre"
+Ecrire "Veuillez saisir le deuxieme nombre"
+
+LIRE nb1
+LIRE nb2
+
+ECRIRE "La moyenne de " , nb1 , "&" , nb2 , " est de " , moyenne

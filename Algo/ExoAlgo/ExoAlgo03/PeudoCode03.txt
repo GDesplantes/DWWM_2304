@@ -1,0 +1,26 @@
+﻿Lire le rayon R d’une sphère puis calculer et afficher :
+
+Son aire = 4 π R²
+Son volume = 4/3 π R³
+
+VARIABLES
+R est un double
+calculAire est un reel
+CalculVolume est un réel
+
+TRAITEMENT
+
+ECRIRE "Bienvenue dans ce programme de calcul d'aire et de velume d'une sphère"
+
+Ecrire "Veuillez saisir le rayon de la sphère"
+
+LIRE R
+
+ECRIRE "Le rayon du de la sphère est de " , R
+
+ECRIRE "l'air de la sphère est donc de " , calculAire , " et son volume est de " , calculVolume
+
+
+
+
+FIN TRAITEMENT
