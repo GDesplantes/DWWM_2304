@@ -1,0 +1,56 @@
+﻿Lire 3 nombres entier A, B et C puis les afficher dans l’ordre décroissant.
+
+VARIABLES
+
+nombre1 est un entier
+
+nombre2 est un entier
+
+nombre3 est un entier
+
+TRAITEMENT	
+
+ECRIRE "Bienvenue dans ce programme d'affichage de nombre dans un ordre décroissant"
+
+ECRIRE "Veuillez saisir la valeur du nombre1"
+
+LIRE nombre1
+
+ECRIRE "Veuillez saisir la valeur du nombre2"
+
+LIRE nombre2
+
+ECRIRE "Veuillez saisir la valeur du nombre3"
+
+LIRE nombre3
+
+SI nombre1<=nombre2 et nombre1>= nombre 3
+
+	ECRIRE "l'Ordre décroissant des nombres est de " , nombre2 , "-" , nombre 1 , "-" , nombre 3
+/////////////////////////
+
+
+Sinon SI nombre1<=nombre3 et nombre1>= nombre2
+	
+	ECRIRE "l'Ordre décroissant des nombres est de " , nombre2 , "-" , nombre1  , "-" , nombre 3
+
+	Sinon
+
+		SI nombre2<=nombre1 et nombre2>=nombre3
+
+		ECRIRE "l'Ordre décroissant des nombres est de " , nombre3 , "-" , nombre 2 , "-" , nombre 1
+
+		Sinon SI nombre2<=nombre3 et nombre2>=nombre1
+
+		ECRIRE "l'Ordre décroissant des nombres est de " , nombre1 , "-" , nombre 2 , "-" , nombre 3
+
+	Si nombre1<=nombre3 et nombre3>=nombre2
+
+	ECRIRE "l'Ordre décroissant des nombres est de " , nombre1 , "-" , nombre 3 , "-" , nombre 2
+
+	SINON SI nombre2<=nombre3 et nombre3>=nombre1
+
+	ECRIRE "l'Ordre décroissant des nombres est de " , nombre2 , "-" , nombre 3 , "-" , nombre 1
+
+FIN TRAITEMENT
+

@@ -1,0 +1,24 @@
+﻿Lire 2 nombres entier A et B puis les afficher dans l’ordre croissant
+
+VARIABLES
+
+A est un entier
+
+B est un entier
+
+
+TRAITEMENT
+
+ECRIRE " Veuillez saisir la valeur de A"
+
+LIRE A
+
+ECRIRE "Veuillez saisir la valeur de B"
+
+LIRE B
+
+ECRIRE "Voici les valeurs dans l'ordre croissant" , Math.min , Math.Max
+
+
+
+FIN TRAITEMENT

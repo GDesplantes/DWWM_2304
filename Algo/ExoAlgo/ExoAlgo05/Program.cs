@@ -23,7 +23,7 @@
             B = A;
             A = C;
 
-            Console.WriteLine("Invertion des nombres en cours . . . .");
+            Console.WriteLine("Inversion des valeurs en cours . . . .");
 
             Console.WriteLine("Les nouvelles valeurs de A et B sont " + A + " et " +B);
 

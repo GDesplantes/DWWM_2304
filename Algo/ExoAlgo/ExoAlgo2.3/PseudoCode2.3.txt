@@ -1,0 +1,39 @@
+﻿Lire un nombre A correspondant à un âge (en années).
+Selon l’âge fourni, le programme doit afficher l’un des messages suivants :
+Vous êtes à la retraite depuis X années
+
+Il vous reste X années avant la retraite.
+
+C’est le moment de prendre sa retraite.
+
+La valeur fournie n’est pas un âge valide.
+
+La retraite est fixée à 60 ans.
+
+VARIABLES	
+
+age est un entier
+
+
+
+TRAITEMENT
+
+ECRIRE "Bienvenue dans ce programme de calcul de la retraite"
+
+ECRIRE "Veuillez rentrer votre age"
+
+LIRE age
+
+Si age>0
+	Si age <60
+
+	ECRIRE "Vous serez à la retraite dans " , 60-age , " ans"
+
+	Sinon Si age>60 "Vous êtes à la retraite depuis " , age-60 " ans"
+
+	Sinon "C'est le moment de prendre sa retraite"
+
+Sinon "La valeur fournie n'est pas un âge valide"
+
+
+FIN TRAITEMENT
