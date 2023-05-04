@@ -1,0 +1,12 @@
+﻿VARIABLES
+
+nombre est un entier
+diviseur est un entier
+
+
+TRAITEMENT
+
+
+
+
+FIN TRAITEMENT

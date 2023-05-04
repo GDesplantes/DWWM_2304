@@ -10,9 +10,8 @@ L’utilisateur dispose d’un nombre d’essai illimité.
 
 
 VARIABLES
-nbcaractère est un entier constant
-
-
+limite est un entier constant
+prénom est une chaîne de charactères
 
 
 TRAITEMENT
