@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo3.4", "ExoAlgo3.4\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAlgo3.5", "ExoAlgo3.5\ExoAlgo3.5.csproj", "{38F811D5-884A-4BEA-A9AF-755F4C12210F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAlgo3.6", "ExoAlgo3.6\ExoAlgo3.6.csproj", "{11BD4D1C-69AE-4066-888F-736C6028F748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{38F811D5-884A-4BEA-A9AF-755F4C12210F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F811D5-884A-4BEA-A9AF-755F4C12210F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F811D5-884A-4BEA-A9AF-755F4C12210F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BD4D1C-69AE-4066-888F-736C6028F748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BD4D1C-69AE-4066-888F-736C6028F748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BD4D1C-69AE-4066-888F-736C6028F748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BD4D1C-69AE-4066-888F-736C6028F748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -39,7 +39,7 @@ namespace ExoAlgo3._3
                 while (nb1 < nb2 - 1);
             }
 
-            if (nb2<nb1-1)
+            else if (nb2<nb1-1)
             {
                 do
                 {

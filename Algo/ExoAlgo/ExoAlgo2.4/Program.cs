@@ -30,9 +30,6 @@
             {
                 Console.WriteLine("l'Ordre décroissant des nombres est de " + nombre2 + "-" + nombre3 + "-" +nombre1);
 
-            }
-            else
-            {
 
             }
             if (nombre2 >= nombre1 && nombre2<= nombre3)
@@ -44,15 +41,12 @@
                 Console.WriteLine("l'Ordre décroissant des nombres est de " + nombre1 + "-" + nombre3 + "-" + nombre2);
             }
 
-            else
-            {
-
-            }
-                if(nombre2 >= nombre1 && nombre1>= nombre3)
+          
+            if(nombre2 >= nombre1 && nombre1>= nombre3)
             {
                 Console.WriteLine("l'Ordre décroissant des nombres est de " + nombre2 + "-" + nombre1 + "-" + nombre3);
             }
-                else if (nombre1 >= nombre2 && nombre2 >= nombre3)
+            else if (nombre1 >= nombre2 && nombre2 >= nombre3)
             {
                 Console.WriteLine("l'Ordre décroissant des nombres est de " + nombre1 + "-" + nombre2 + "-" + nombre3);
             }

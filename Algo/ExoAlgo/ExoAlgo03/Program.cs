@@ -4,7 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            double R;
+            double r;
             double calculAire;
             double calculVolume;
 
@@ -13,14 +13,14 @@
 
             Console.WriteLine("Veuillez saisir le rayon de la sphère");
 
-            R=int.Parse(Console.ReadLine());
+            r=int.Parse(Console.ReadLine());
 
 
 
-            Console.WriteLine("Le rayon du de la sphère est de " +R);
+            Console.WriteLine("Le rayon du de la sphère est de " +r);
 
-            calculAire=(4*Math.PI)*Math.Pow(R,2);
-            calculVolume = (4 / 3) * Math.PI * Math.Pow(R, 3);
+            calculAire=(4*Math.PI)*Math.Pow(r,2);
+            calculVolume = (4  * Math.PI * Math.Pow(r,3))/3;
 
             Console.WriteLine("l'Aire de la sphère est donc de " + calculAire + " et son volume est de " + calculVolume);
         }
