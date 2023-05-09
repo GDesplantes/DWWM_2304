@@ -1,8 +1,9 @@
 ﻿VARIABLES
 
 nombre est un entier
-diviseur est un entier
 
+
+pour diviseur=1 tant que diviseur<nombre, diviseur++
 
 TRAITEMENT
 
