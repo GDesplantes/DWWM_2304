@@ -9,8 +9,10 @@ Soit la somme S dont il disposait au départ (S > 1 €).
 Représenter l’algorithme permettant de trouver le nombre de magasins dans lesquels il a acheté.
 
 VARIABLES
-
-
+argent est un float
+payemnt <-- argent/2-1
+magasin est un entier
+minimum<--2
 
 TRAITEMENT
 
