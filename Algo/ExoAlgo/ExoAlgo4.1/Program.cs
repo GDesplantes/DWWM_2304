@@ -6,34 +6,29 @@
         {
             int[] nombres = { 8, 16, 32, 64, 128, 256, 512};
             int cherche;
-            int i = 0;
+            int index = 0;
 
             Console.WriteLine("Chercher un nombre dans le tableaux");
 
             cherche=int.Parse(Console.ReadLine());
 
-            do
+          
+            while (index < nombres.Length && cherche != nombres[index]);
             {
-                i++;
+                index++;
             }
-            while (i < nombres.Length);
 
-
-            /*for (int i = 0; i < nombres.Length; i++)
+            if (index < nombres.Length)
             {
-                int resulat = nombres[i];
-                if (resulat == cherche)
-                {
-                    Console.WriteLine(cherche + " est présents dans le tableaux");
-                }
-                else
-                {
-                    Console.WriteLine(cherche + "");
-                }
-            }*/
-            
+                Console.WriteLine(nombres[index] + " est present dans le tableau à l'indice " + index);
+            }
+            else
+            {
+                Console.WriteLine("Nombre non trouvé");
+            }
 
 
+  
         }
     }
 }
