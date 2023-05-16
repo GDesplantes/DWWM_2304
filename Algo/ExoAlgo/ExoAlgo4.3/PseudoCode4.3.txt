@@ -1,1 +1,7 @@
-﻿
+﻿Lire un texte d’au moins 120 caractères (à contrôler).
+nbCharacteres est un entier
+texte est une chaine de characteres (tableaux)
+
+
+
+Compter et afficher le nombre d’occurrences (d’apparitions) de chacune des lettres de l’alphabet.

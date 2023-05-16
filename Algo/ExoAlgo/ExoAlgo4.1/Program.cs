@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[] nombres = { 8, 16, 32, 64, 128, 256, 512};
+            int [] nombres = { 8, 16, 32, 64, 128, 256, 512};
             int cherche;
             int index = 0;
 
