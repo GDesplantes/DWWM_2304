@@ -13,3 +13,16 @@ Affichage des 4 premiers nombres parfaits :
 28 est un nombre parfait.
 496 est un nombre parfait.
 8128 est un nombre parfait.
+
+
+VARIABLES
+
+
+
+
+TRAITEMENT
+
+
+
+
+FIN TRAITEMENT

@@ -45,9 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo4.3", "ExoAlgo4.3\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo4.4", "ExoAlgo4.4\ExoAlgo4.4.csproj", "{DF1487B6-171E-498A-8965-6066F839311E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAlgo4.5", "ExoAlgo4.5\ExoAlgo4.5.csproj", "{838F3D09-CD65-418F-83CD-0653349AF1FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo4.5", "ExoAlgo4.5\ExoAlgo4.5.csproj", "{838F3D09-CD65-418F-83CD-0653349AF1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAlgo5.1", "ExoAlgo5.1\ExoAlgo5.1.csproj", "{4682AC15-5910-44F7-81BF-9DF0537CF11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo5.1", "ExoAlgo5.1\ExoAlgo5.1.csproj", "{4682AC15-5910-44F7-81BF-9DF0537CF11A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo5.1Fonctions", "Exo5.1Fonctions\Exo5.1Fonctions.csproj", "{0C77F86E-3775-439C-ADDA-23D76C220691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAlgo5.2.1", "ExoAlgo5.2.1\ExoAlgo5.2.1.csproj", "{CA65BE4F-BED2-404F-853A-64B012FBD102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{4682AC15-5910-44F7-81BF-9DF0537CF11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4682AC15-5910-44F7-81BF-9DF0537CF11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4682AC15-5910-44F7-81BF-9DF0537CF11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C77F86E-3775-439C-ADDA-23D76C220691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C77F86E-3775-439C-ADDA-23D76C220691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C77F86E-3775-439C-ADDA-23D76C220691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C77F86E-3775-439C-ADDA-23D76C220691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA65BE4F-BED2-404F-853A-64B012FBD102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA65BE4F-BED2-404F-853A-64B012FBD102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA65BE4F-BED2-404F-853A-64B012FBD102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA65BE4F-BED2-404F-853A-64B012FBD102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
