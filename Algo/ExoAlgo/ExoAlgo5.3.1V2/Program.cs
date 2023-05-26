@@ -1,13 +1,9 @@
-﻿namespace Exo5._1Fonctions
+﻿namespace ExoAlgo5._3._1V2
 {
     internal class Program
     {
-
-
         static void Main(string[] args)
         {
-            List<int> tabDiviseur = new List<int>();
-
             
         }
     }

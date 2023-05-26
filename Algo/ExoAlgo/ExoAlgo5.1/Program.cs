@@ -19,15 +19,15 @@
                     tabDiviseur.Add(diviseur);
                 }
             }
-            int somme=1;
+            int somme = 1;
             Console.WriteLine("Les diviseurs autre que 1 sont : ");
-            for(int i=0; i<tabDiviseur.Count; i++)
+            for (int i = 0; i < tabDiviseur.Count; i++)
             {
-                somme+=tabDiviseur[i];
+                somme += tabDiviseur[i];
                 Console.Write(tabDiviseur[i] + " ");
             }
             Console.WriteLine();
-            if (nombre == somme && somme!=0)
+            if (nombre == somme && somme != 0)
             {
                 Console.WriteLine(nombre + " est un nombre parfait");
             }

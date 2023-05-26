@@ -2,13 +2,20 @@
 {
     internal class Program
     {
+        static double conversionKmMi(double kilometre)
+        {
+            double mi = kilometre / 1.609;
+            return mi;
+        }
+
         static void Main(string[] args)
         {
 
             string saisie;
-            double km;
+            double km=0;
             double convertion;
             bool saisieValide = false;
+
 
             do
             {
@@ -17,25 +24,23 @@
                 if(saisie != "q") 
                 {
                    km = double.Parse(saisie);
-                    if(km < 0.01 || km > 1000000)
+                    if(km >= 0.01 && km <= 1000000)
                     {
                         saisieValide=true;
                     }
                 }
             }
             while (!saisieValide && saisie!="q");
+
             if (saisie == "q")
             {
                 Console.WriteLine(" Fin de programme");
             }
             else
             {
+              
+                Console.WriteLine("Résultat = " + conversionKmMi(km) + " miles");
                 
-                while (km > 0)
-                {
-                    km = km - 1.609;
-
-                }
             }
 
         }

@@ -1,0 +1,13 @@
+﻿Soit “X” une valeur à convertir.
+
+Formule °F vers °C : °C = (X − 32) * 5/9
+Formule °C vers °F : °F = (X  9/5) + 32
+L’utilisateur saisit une valeur numérique comprise entre -459.67 et 5 000 000 suivi de l’unité de température : - C pour Celsius - F pour Fahrenheit
+
+La valeur et l’unité de température sont séparés par un espace (exemple: 32 C pour 32 degrés Celsius).
+
+Si la valeur est hors limite, l’utilisateur est invité à saisir une nouvelle valeur.
+
+Le programme affiche le résultat de la conversion sous forme de nombre réel double précision.
+
+Pour information, le zéro absolu correspond à -459.67 Degrés Fahrenheit ou -273.15 degrés Celsius.
