@@ -59,7 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo5.2.2_", "ExoAlgo5.2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jeu_Du_Pendu", "Jeu_Du_Pendu\Jeu_Du_Pendu.csproj", "{28F149EA-5CCD-468C-B739-F330A4A43238}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAlgo5.3.1", "ExoAlgo5.3.1\ExoAlgo5.3.1.csproj", "{E982F41C-175D-4503-9A88-58FBD0215D91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo5.3.1", "ExoAlgo5.3.1\ExoAlgo5.3.1.csproj", "{E982F41C-175D-4503-9A88-58FBD0215D91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoAlgo5.3.1V2", "ExoAlgo5.3.1V2\ExoAlgo5.3.1V2.csproj", "{9DCDCBD5-8DC4-48B7-8949-3DC744500271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoFonctionBasic", "ExoFonctionBasic\ExoFonctionBasic.csproj", "{E88A4930-95AD-4381-888A-0CB478159198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,14 @@ Global
 		{E982F41C-175D-4503-9A88-58FBD0215D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E982F41C-175D-4503-9A88-58FBD0215D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E982F41C-175D-4503-9A88-58FBD0215D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCDCBD5-8DC4-48B7-8949-3DC744500271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCDCBD5-8DC4-48B7-8949-3DC744500271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCDCBD5-8DC4-48B7-8949-3DC744500271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCDCBD5-8DC4-48B7-8949-3DC744500271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88A4930-95AD-4381-888A-0CB478159198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88A4930-95AD-4381-888A-0CB478159198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88A4930-95AD-4381-888A-0CB478159198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88A4930-95AD-4381-888A-0CB478159198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

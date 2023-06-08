@@ -11,16 +11,15 @@
             Console.WriteLine("Saisssez une température et précisé une unité (C/F)");
             Console.WriteLine("Cette valeur doit être comprise entre -459,67 et 5 000 000");
 
-            unite = Console.ReadLine();
-
-            while (unite[unite.Length - 1] != 'C' && unite[unite.Length - 1] != 'F')
+            do
             {
-                
                 Console.WriteLine("Vous n'avez pas saisie la bonne unité. Rappel (C/F)");
                 unite = Console.ReadLine();
-
-                
             }
+
+            while (unite[unite.Length - 1] != 'C' && unite[unite.Length - 1] != 'F');
+
+
            //double nbtemp = Convert.ToDouble(unite);
             
           
