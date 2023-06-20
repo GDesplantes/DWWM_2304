@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL_Bouteille", "CL_Bouteille\CL_Bouteille.csproj", "{F2280260-C6D2-4C0C-B541-5A32E8421491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL_Bouteille", "CL_Bouteille\CL_Bouteille.csproj", "{F2280260-C6D2-4C0C-B541-5A32E8421491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet_Bouteille", "Projet_Bouteille\Projet_Bouteille.csproj", "{FDEC229E-21AF-47A4-A7AB-B9BE0BC2CD6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projet_Bouteille", "Projet_Bouteille\Projet_Bouteille.csproj", "{FDEC229E-21AF-47A4-A7AB-B9BE0BC2CD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaireBouteille", "TestUnitaireBouteille\TestUnitaireBouteille.csproj", "{F39851A3-2C8C-4230-86CD-A07C4317AFB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FDEC229E-21AF-47A4-A7AB-B9BE0BC2CD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDEC229E-21AF-47A4-A7AB-B9BE0BC2CD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDEC229E-21AF-47A4-A7AB-B9BE0BC2CD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39851A3-2C8C-4230-86CD-A07C4317AFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39851A3-2C8C-4230-86CD-A07C4317AFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39851A3-2C8C-4230-86CD-A07C4317AFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39851A3-2C8C-4230-86CD-A07C4317AFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

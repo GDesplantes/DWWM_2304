@@ -8,6 +8,8 @@ namespace Projet_Bouteille
         {
             Bouteille bouteilleGuillaume = new Bouteille(true, 2, "Papillon", "JackDaniels");
 
+            Bouteille bouteilleFLOGNEEE = new Bouteille(bouteilleGuillaume);
+
             bool ouvrir = bouteilleGuillaume.Ouvrir();
             bool fermer = bouteilleGuillaume.Fermer();
 

@@ -8,11 +8,13 @@ namespace CL_Bouteille
 {
     public class Bouteille
     {
-        public readonly double capaciteEnL;
-        public double quantiteEnL;
-        public readonly string nomMarque;
-        public string nomLiquide;
-        public bool estOuverte;
+        private readonly double capaciteEnL;
+        private double quantiteEnL;
+        private readonly string nomMarque;
+        private string nomLiquide;
+        private bool estOuverte;
+
+        public bool Ouverte { get => estOuverte; }
 
 
         public Bouteille(bool _estOuverte, double _capaciteEnL, string _nomMarque, string _nomLiquide)
@@ -27,10 +29,19 @@ namespace CL_Bouteille
 
         public Bouteille()
         {
+            estOuverte=true;
             capaciteEnL = 1.5;
             quantiteEnL = capaciteEnL;
             nomLiquide = "Eau";
             nomMarque = "Evian";
+        }
+        public Bouteille(Bouteille bouteilleACopier)
+        {
+            this.estOuverte = bouteilleACopier.estOuverte;
+            this.quantiteEnL = bouteilleACopier.capaciteEnL;
+            this.capaciteEnL = bouteilleACopier.capaciteEnL;
+            this.nomLiquide = bouteilleACopier.nomLiquide;
+            this.nomMarque = bouteilleACopier.nomMarque;
         }
 
 
@@ -116,7 +127,7 @@ namespace CL_Bouteille
                 }
                 else
                 {
-                    this.quantiteEnL = this.quantiteEnL + quantiteAAjoute;
+                    this.quantiteEnL += quantiteAAjoute;
                     return true;
                 }
             }
@@ -137,7 +148,7 @@ namespace CL_Bouteille
 
                 else
                 {
-                    this.quantiteEnL = quantiteAVider - this.quantiteEnL;
+                    this.quantiteEnL -= quantiteAVider;
                     return true;
                 }
             }
