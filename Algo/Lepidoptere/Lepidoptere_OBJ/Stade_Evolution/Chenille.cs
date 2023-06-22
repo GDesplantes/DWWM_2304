@@ -14,12 +14,12 @@ namespace Lepidoptere_OBJ.Stade_Evolution
         }
         public override void seDeplacer()
         {
-            Console.WriteLine("");
+            Console.WriteLine("Je rampe!");
         }
 
         public override StadeEvolution SeMetamorphoser()
         {
-            return new Chenille();
+            return new Chrysalide();
         }
     }
 }
