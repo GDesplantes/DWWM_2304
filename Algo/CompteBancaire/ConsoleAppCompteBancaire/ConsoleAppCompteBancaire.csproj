@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CL_Voiture\CL_Voiture.csproj" />
-    <ProjectReference Include="..\TestUniRoues\TestUniRoues.csproj" />
+    <ProjectReference Include="..\CL_CompteBancaire\CL_CompteBancaire.csproj" />
   </ItemGroup>
 
 </Project>

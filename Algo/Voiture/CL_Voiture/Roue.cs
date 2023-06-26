@@ -15,7 +15,7 @@ namespace CL_Voiture
         public Roue()
         {
             this.dimensionPneuReglementaire = "6.50 R 16";
-            tourne = false;
+            this.tourne = false;
         }
 
         public Roue(string dimensionPneu, bool tourne)
@@ -30,7 +30,7 @@ namespace CL_Voiture
             this.tourne = RouACopier.tourne;
         }
 
-        public bool RoueTourne()
+        public bool Tourner()
         {
             if (this.tourne)
             {
@@ -43,7 +43,7 @@ namespace CL_Voiture
             }
         }
 
-        public bool RoueStop()
+        public bool Stopper()
         {
             if (tourne)
             {

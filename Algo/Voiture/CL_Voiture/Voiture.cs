@@ -18,10 +18,17 @@ namespace CL_Voiture
             this.sonMoteur = sonMoteur;
             this.ses4Roues = ses4Roues;
         }
-        public Voiture()
+        public Voiture(string marque, string dimensionPneu, bool tourne, bool enFonctionnement)
         {
-            this.marque = "Mercedes";
-            this.sonMoteur = ;
+            this.marque = marque;
+            this.sonMoteur = new Moteur(enFonctionnement);
+            this.ses4Roues = new List<Roue>
+            { 
+                new Roue(dimensionPneu,tourne),
+                new Roue(dimensionPneu,tourne),
+                new Roue(dimensionPneu,tourne),
+                new Roue(dimensionPneu,tourne)
+            };
         }
 
         public bool Demarrer()

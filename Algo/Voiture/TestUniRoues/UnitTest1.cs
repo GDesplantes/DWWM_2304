@@ -9,7 +9,7 @@ namespace TestUniRoues
         public void TestMethodRoueStop()
         {
             Roue roueAArreter = new Roue();
-            bool ok = roueAArreter.RoueStop();
+            bool ok = roueAArreter.Stopper();
             Assert.IsFalse(ok);
         }
 
@@ -17,8 +17,12 @@ namespace TestUniRoues
         public void TestMethodRoueTourne()
         {
             Roue roueATourner = new Roue();
-            bool ok = roueATourner.RoueTourne();
+            bool ok = roueATourner.Tourner();
             Assert.IsTrue(ok);
         }
+
+       // [TestMethod]
+
+       // public void 
     }
 }
