@@ -27,17 +27,18 @@
         }
 
 
-        public void Deplacer(float newPosition_X, float newPosition_Y)
+        public Point Deplacer(float newPosition_X, float newPosition_Y)
         {
             this.abscisse_X = newPosition_X;
             this.ordonnee_Y = newPosition_Y;
+            return this;
 
         }
 
         public string RenvoyerPosition()
         {
             string coordonnee;
-            coordonnee = abscisse_X.ToString() + ordonnee_Y.ToString();
+            coordonnee = abscisse_X.ToString() + " / " + ordonnee_Y.ToString();
             return coordonnee;
         }
 
@@ -66,7 +67,7 @@
             abscisse_X = ordonnee_Y;
             ordonnee_Y = temp;
 
-            return new Point(abscisse_X, Ordonnee_Y);
+            return this;
 
             
         }

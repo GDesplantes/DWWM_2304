@@ -7,7 +7,7 @@ namespace ConsoleApp_Point
         static void Main(string[] args)
         {
             Point point = new Point( 2, -5);
-            //deplacer = point.Deplacer(-2.5f, 5.2f);
+            Point deplacer = point.Deplacer(-2.5f, 5.2f);
             string position = point.RenvoyerPosition();
             Point symetrieAbscisse = point.SymetrieAxeAbscisse();
             Point symetrieOrdonne = point.SymetrieAxeOrdonnee();
