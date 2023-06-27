@@ -27,11 +27,11 @@
         }
 
 
-        public Point Deplacer(float newPosition_X, float newPosition_Y)
+        public void Deplacer(float newPosition_X, float newPosition_Y)
         {
             this.abscisse_X = newPosition_X;
             this.ordonnee_Y = newPosition_Y;
-            return this;
+            
 
         }
 
@@ -60,14 +60,12 @@
 
         }
 
-        public Point PermuterCoordonnee()
+        public void PermuterCoordonnee()
         {
             float temp;
             temp = abscisse_X;
             abscisse_X = ordonnee_Y;
             ordonnee_Y = temp;
-
-            return this;
 
             
         }
