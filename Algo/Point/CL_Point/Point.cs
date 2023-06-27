@@ -20,31 +20,62 @@
             this.ordonnee_Y = _ordonnee_Y;
         }
 
-        public Point( Point PointCopie)
+        public Point(Point pointCopie)
         {
-            this.abscisse_X = PointCopie.abscisse_X;
-            this.ordonnee_Y = PointCopie.ordonnee_Y;
+            this.abscisse_X = pointCopie.abscisse_X;
+            this.ordonnee_Y = pointCopie.ordonnee_Y;
         }
 
-        public float IndiquerPosition()
-        {
-            return abscisse_X;
-            return ordonnee_Y;
-        }
 
         public void Deplacer(float newPosition_X, float newPosition_Y)
         {
-            abscisse_X = newPosition_X;
-            ordonnee_Y= newPosition_Y;
+            this.abscisse_X = newPosition_X;
+            this.ordonnee_Y = newPosition_Y;
+
         }
 
-        public void RenvoyerPosition()
+        public string RenvoyerPosition()
         {
+            string coordonnee;
+            coordonnee = abscisse_X.ToString() + ordonnee_Y.ToString();
+            return coordonnee;
+        }
+
+        public Point SymetrieAxeAbscisse()
+        {
+            return new Point(abscisse_X, -ordonnee_Y);
 
         }
+
+        public Point SymetrieAxeOrdonnee()
+        {
+            return new Point( -abscisse_X,ordonnee_Y);
+
+        }
+
+        public Point SymetrieOrigine()
+        {
+            return new Point(-abscisse_X, -ordonnee_Y);
+
+        }
+
+        public Point PermuterCoordonnee()
+        {
+            float temp;
+            temp = abscisse_X;
+            abscisse_X = ordonnee_Y;
+            ordonnee_Y = temp;
+
+            return new Point(abscisse_X, Ordonnee_Y);
+
+            
+        }
+
+
 
 
 
 
     }
 }
+
