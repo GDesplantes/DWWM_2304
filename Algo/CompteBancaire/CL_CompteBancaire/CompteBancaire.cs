@@ -27,7 +27,7 @@ namespace CL_CompteBancaire
             this.soldeActuel = soldeActuel;
         }
 
-        public CompteBancaire (CompteBancaire CompteBancaireSecondaire)
+        public CompteBancaire(CompteBancaire CompteBancaireSecondaire)
         {
             this.decouvertAutorise = CompteBancaireSecondaire.decouvertAutorise;
             this.nom = CompteBancaireSecondaire.nom;
@@ -36,26 +36,24 @@ namespace CL_CompteBancaire
         }
 
 
-        public void Crediter( double montant)
+        public void Crediter(double montant)
         {
             this.soldeActuel += montant;
         }
-         
 
-        public bool Debite( double montant)
+        public bool Debite(double montant)
         {
-            
-            if (this.soldeActuel - montant < this.decouvertAutorise)
+            if (this.soldeActuel - montant >= decouvertAutorise)
             {
-                
-                return false;
+                this.soldeActuel-=montant;
+                return true;
             }
             else
             {
-                
-                this.soldeActuel -= montant;
-                return true;
+                return false;
             }
+            
+
         }
 
         public bool SoldeSuperieur(CompteBancaire compteACompare)
@@ -70,11 +68,10 @@ namespace CL_CompteBancaire
             }
         }
 
-        public bool Transferer(int montant, CompteBancaire compteDestinataire)
+        public bool Transferer(double montant, CompteBancaire compteDestinataire)
         {
-            if (this.soldeActuel-montant > decouvertAutorise)
+            if (Debite(montant) == true)
             {
-                this.soldeActuel -= montant;
                 compteDestinataire.soldeActuel+=montant;
                 return true;
             }

@@ -8,7 +8,7 @@ namespace TestProjectCompteBancaire
         public void TestMethodCrediter()
         {
             CompteBancaire compteSchoumi = new CompteBancaire();
-            compteSchoumi.Crediter(125d);
+            compteSchoumi.Crediter(125d,false,compteSchoumi);
             Assert.IsTrue(compteSchoumi.SoldeActuel == 250);
             
         }
@@ -18,7 +18,7 @@ namespace TestProjectCompteBancaire
         public void TestMethodDebiter()
         {
             CompteBancaire compteSchoumi =new CompteBancaire();
-            bool ok = compteSchoumi.Debite(50);
+            bool ok = compteSchoumi.Debite(50,false,compteSchoumi);
             Assert.IsTrue(ok);
             Assert.IsTrue(compteSchoumi.SoldeActuel == 75);
         }
