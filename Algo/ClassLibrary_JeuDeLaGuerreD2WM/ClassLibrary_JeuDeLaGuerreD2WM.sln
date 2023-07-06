@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary_JeuDeLaGuerreD2WM", "ClassLibrary_JeuDeLaGuerreD2WM\ClassLibrary_JeuDeLaGuerreD2WM.csproj", "{AFFBE12F-5FF6-4E3D-8F9F-0E226A58EB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppJeu_De_La_Guerre", "ConsoleAppJeu_De_La_Guerre\ConsoleAppJeu_De_La_Guerre.csproj", "{9037D981-E249-4FC3-9640-5066F0AC15E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFBE12F-5FF6-4E3D-8F9F-0E226A58EB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFBE12F-5FF6-4E3D-8F9F-0E226A58EB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFBE12F-5FF6-4E3D-8F9F-0E226A58EB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFBE12F-5FF6-4E3D-8F9F-0E226A58EB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9037D981-E249-4FC3-9640-5066F0AC15E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9037D981-E249-4FC3-9640-5066F0AC15E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9037D981-E249-4FC3-9640-5066F0AC15E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9037D981-E249-4FC3-9640-5066F0AC15E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5715EB6F-B4A3-40C6-9A9F-F7C4898C4FBD}
+	EndGlobalSection
+EndGlobal
