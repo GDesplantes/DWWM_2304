@@ -1,0 +1,2 @@
+CREATE DATABASE exo03mysql_modele_relationnel
+

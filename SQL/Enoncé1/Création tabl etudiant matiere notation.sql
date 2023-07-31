@@ -1,0 +1,30 @@
+USE  exo03_enonce2;
+
+DROP TABLE if EXISTS Matieres;
+DROP TABLE if EXISTS Etudiants;
+DROP TABLE if EXISTS Notation;
+
+CREATE TABLE if NOT EXISTS MATIERES	
+(
+id_matiere INT AUTO_INCREMENT PRIMARY KEY,
+lib_matiere VARCHAR(20) UNIQUE,
+coefficient DECIMAL(5,2)
+);
+
+CREATE TABLE if NOT EXISTS ETUDIANTS
+(
+id_etudiant INT AUTO_INCREMENT PRIMARY KEY,
+nom VARCHAR(25),
+prenom VARCHAR(25),
+date_entree DATE
+);
+
+CREATE TABLE if NOT EXISTS NOTATIONS
+(
+moyenne DECIMAL (10,2),
+id_matiere INT,
+id_etudiant INT
+);
+
+ALTER TABLE NOTATIONS
+ADD CONSTRAINT pk_notation PRIMARY KEY (id_matiere,id_etudiant);
