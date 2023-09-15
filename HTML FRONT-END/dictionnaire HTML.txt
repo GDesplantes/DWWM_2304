@@ -1,0 +1,45 @@
+block note HTML 
+
+&nbsp = Espace Inséquable
+
+InLine = prend seulement la taille nessesaire
+Block = prend toute la largeur Possible.
+Flex = mode d'affichage façon texte/Word
+
+
+<pre> </pre> = balise qui permet de prendre en compte les espaces et les tabulations 
+
+<nav> représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit, c'est une section destinée à la navigation dans un document (avec des menus, des tables des matières, des index, etc.).
+<a href="https://www.codeur.com">Visiter Codeur.com</a>
+
+<link href="/media/examples/link-element-example.css" rel="stylesheet" />
+
+CSS
+list-style-type : (changer/enlever les puces des listes)
+
+balise1>balise2 ( le chevron previens que l'influence est fais seulement sur balise 2/ le premier enfant de balise1)
+
+
+Padding marge "interieur" de la balise/bloc
+Margin marge "exterieure" de la balise/bloc
+
+TAILLE:
+width-->Largeur
+height-->hauteur
+
+object-fit: cover;--> garder la liaison hauuteur largeur dnas une image
+100vh --> 100% de la hauteur de la fenêtre
+100vw --> 100% de la largeur de la fenêtre
+
+height: fit-content; --> la heuteur prend seulement la place necessaire par rapport au contenue.
+
+gap --> permet de crée un espace entre les éléments flex
+row-gap--> espacement uniquement entre les lignes
+column-gap --> espacement uniquement entre les colonnes
+
+FLEX-DIRECTION
+
+ROW: texte en ligne --->
+COLUMN : en colone (haut vers le bas)
+row-reverse: texte en ligne inversé <--
+reverse-column: en colone inversé (bas vers le haut)  

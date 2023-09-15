@@ -1,0 +1,7 @@
+ul {border: 1px solid black}
+input[type="text"] ,input[type="date"],input[type="tel"] {
+  margin: 10px 0px 10px 0px;  
+}
+label{display: inline-block;
+    width: 150px;
+}
