@@ -67,14 +67,21 @@ function formOk() {
     let inputPrenom = document.getElementById("prenomUtilisateur");
     let inputEmail = document.getElementById("email");
 
+
    // return inputNom.value + inputPrenom.value + inputEmail.value != "";
 
-    if(inputEmail.value != "" && inputPrenom.value !="" && inputNom !="")
+   
+    
+   if(inputEmail.value != "" && inputPrenom.value !="" && inputNom.value !="")
     {
-        return //qlq chose
+        return true;
+    }
+    else {
+        return false;
     }
 
 }
+
 
 // "1" + "2" + "3" != "" --> true
 // "" + "" + "" != "" --> false
@@ -102,4 +109,3 @@ afficherMois()
 formOk()
 
 
-(a == b) : BOOLEEN
