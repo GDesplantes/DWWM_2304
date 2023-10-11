@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./introDate.css">
+    <link rel="stylesheet" href="./introduction.css">
     <script src="./introDates.js" type="module" defer></script>
     <title>Document</title>
 </head>
@@ -17,9 +17,11 @@
     <form action="#" method="get" enctype="text/plain">
         <label for="dateNaissance"> Date de naissance : </label>
         <input type="datetime-local" name="dateDeNaissance" id="dateNaissance">
-        <button type="button">Calculer</button>
+        <button type="button" id="bouttonCalculerDates">Calculer</button>
 
-
+        <p id="textePourLaDate">
+            Sélectionnez une date dans le passé.
+        </p>
     </form>
     
 </body>
