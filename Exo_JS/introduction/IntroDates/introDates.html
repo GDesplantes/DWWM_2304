@@ -8,21 +8,16 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>
-            Ma date de naissance
-        </h1>
-    </header>
-    
-    <form action="#" method="get" enctype="text/plain">
-        <label for="dateNaissance"> Date de naissance : </label>
-        <input type="datetime-local" name="dateDeNaissance" id="dateNaissance">
-        <button type="button" id="bouttonCalculerDates">Calculer</button>
-
-        <p id="textePourLaDate">
-            Sélectionnez une date dans le passé.
-        </p>
-    </form>
-    
+    <main>
+        <h1>Ma date de naissance</h1>
+        <form>
+            <label for="dateNaissance">Date de naissance :</label>
+            <input type="datetime-local" id="dateNaissance">
+            <button type="button" id="calculer">Calculer</button>
+        </form>
+        <div id="resultatDate">Sélectionner une date dans le passé.</div>
+        <div id="resultatIntervalle"></div>
+    </main>
 </body>
 </html>
+
