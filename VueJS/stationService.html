@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pompe à essence</title>
+    <link rel="stylesheet" href="./assets/css/style.css"></link>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./Assets/StationService/js/main.js" type="module"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Ma pompe à essence</h1>
+
+        <div>
+            <label for="prixLitre">Prix du litre :  </label>
+            <input type="number" v-model="prixAuLitre">
+        </div>
+        
+        <p>Quantité : {{ quantiteEnLitre }} </p>
+        <p>A payer : {{prixAPayer}}</p>
+
+        <button ></button>
+        
+    </div>
+</body>
+</html>
