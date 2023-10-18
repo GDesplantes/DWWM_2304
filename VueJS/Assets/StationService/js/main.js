@@ -5,7 +5,8 @@ const appExemple = {
         return  {
             prixAuLitre: 0,
             quantiteEnLitre: 0,
-            prixAPayer: 0
+            prixAPayer: 0,
+            boutonDemmarer: ''
             
         }
     },
@@ -17,6 +18,10 @@ const appExemple = {
         
     },
     methods: {
+        calcul() {
+            console.log("Bonjour")
+
+        }
         
     }
 }
