@@ -1,5 +1,5 @@
 const btnSimulation = document.getElementById("CommencerLaSimulation")
-const debutSuite = 1;
+const debutSuite = '1';
 const texteSuiteDeConway = document.getElementById("affichageSuiteConway")
 
 
@@ -10,8 +10,9 @@ function testWindowPrompt () {
     texteSuiteDeConway.innerHTML = _occurenceSimulation;
 }
 
-function CalculerSuiteConway(_debutSuite) {
-    let debutSuite = _debutSuite
+function CalculerSuiteConway() {
+    console.log(debutSuite)
+
 
 }
 
@@ -22,4 +23,7 @@ function CalculerSuiteConway(_debutSuite) {
 btnSimulation.addEventListener('click',function() {
 
 testWindowPrompt()
+
+
+CalculerSuiteConway()
 })
