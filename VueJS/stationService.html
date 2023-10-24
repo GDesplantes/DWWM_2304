@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pompe à essence</title>
-    <link rel="stylesheet" href="./assets/css/style.css"></link>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./Assets/StationService/js/main.js" type="module"></script>
 </head>
@@ -17,10 +16,11 @@
             <input type="number" v-model="prixAuLitre">
         </div>
         
-        <p>Quantité : {{ quantiteEnLitre }} </p>
-        <p>A payer : {{calculPrix}}</p>
+        <p>Quantité : {{ quantiteArrondie }} litre(s) </p>
+        <p>A payer : {{ calculPrix }}</p>
 
-        <button @click="calculerPrix">Start</button>
+        <button @click="calculerPrix">{{libeleBtn}}</button>
+        <button @click="reset"> Reset</button>
         
     </div>
 </body>
