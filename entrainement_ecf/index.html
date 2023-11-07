@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./Assets/JS/main.js" type="module"></script>
+    <link rel="stylesheet" href="../entrainement_ecf/Assets/CSS/style.css">
+</head>
+<body>
+    <main id="app">
+        <h1>Résultat de la course</h1>
+        <p>  {{nbParticipant}} participant</p>
+        <br>
+        <p> Gagnant : </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pays</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Temps final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="participant of participants">
+                    <td>{{ participant.pays }}</td>
+                    <td>{{ participant.nomDeFamille }}</td>
+                    <td>{{participant.prenom}}</td>
+                    <td>{{tempsEnMin}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
