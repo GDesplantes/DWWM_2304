@@ -11,7 +11,7 @@ const app = {
 
     async mounted() {
 
-         let response = await fetch('./Assets/resultats.json');
+         let response = await fetch('./Assets/cereales/resultats.json');
          this.participants = await response.json();
          console.log(this.participants);
 
