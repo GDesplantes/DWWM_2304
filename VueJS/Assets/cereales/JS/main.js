@@ -14,6 +14,7 @@ const app = {
     async mounted() {
         let response = await fetch('./Assets/cereales/cereales.json');
         this.cereales = await response.json();
+        this.cereales = this.cereales.data;
         console.log(this.cereales);
 
         for ( let i = 0; i<this.cereales.length; i++) {

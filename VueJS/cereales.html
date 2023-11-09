@@ -13,9 +13,9 @@
         <table>
             <thead>
                 <tr>
-                    <th>CALORIES</th>
                     <th>ID</th>
                     <th>NOM</th>
+                    <th>CALORIES</th>
                     <th>PROTEÎNES</th>
                     <th>SEL</th>
                     <th>FIBRES</th>
@@ -29,20 +29,20 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                <tr v-for="cereale of cereales">
+                    <td>{{cereale.id}}</td>
+                    <td>{{cereale.nom}}</td>
+                    <td>{{cereale.calories}}</td>
+                    <td>{{cereale.proteine}}</td>
+                    <td>{{cereale.sel}}</td>
+                    <td>{{cereale.fibre}}</td>
+                    <td>{{cereale.glucide}}</td>
+                    <td>{{cereale.sucre}}</td>
+                    <td>{{cereale.potassium}}</td>
+                    <td>{{cereale.vitamines}}</td>
+                    <td>{{cereale.evaluation}}</td>
+                    <!-- <td></td>
+                    <td></td> -->
                 </tr>
 
             </tbody>
