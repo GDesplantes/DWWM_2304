@@ -1,0 +1,15 @@
+main {
+    border: solid brown;
+    padding: 10px;
+}
+
+h1 {
+    color:brown;
+}
+
+#btn {
+    color: brown;
+    background-color: rgb(92, 219, 219);
+    border-radius: 5px;
+
+}
