@@ -1,9 +1,9 @@
-const { createApp } = Vue;
-const appExemple = {
+
+const app = {
 
     data() {
         return {
-            compteur:  0
+            compteur: 0
         }
     },
 

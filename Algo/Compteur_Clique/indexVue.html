@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script href="./Assets/main.js" type="module"></script>
+    <script href="/Assets/mainVue.js" type="module"></script>
     <title>Document</title>
 </head>
 <body>
 
-    <main id="app">
+    <main>
+        <div id="app">
         <h1>
             Compteurs de Clicks
         </h1>
 
-        <button @click="incrementer" >Cliquez-Moi</button>
+        <button @click="incrementer">Cliquez-Moi {{compteur}}</button>
 
-        <p>Vous avez cliqué {{compteur}} fois</p>
+        <p>Vous avez cliqué : {{compteur}} fois</p>
+    </div>
     </main>
     
 </body>

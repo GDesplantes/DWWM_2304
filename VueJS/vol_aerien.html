@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./Assets/vol_aerien/js/main.js" type="module"></script>
+    <link href="./Assets/vol_aerien/css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+
+           
+        </header>
+
+        <main>
+            <fieldset>
+                <legend> Rechercher</legend>
+                <input type="search" placeholder=" Nom de la compagnie" v-model="recherche" @input="filtrerCompagnie" >
+            </fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="id" @click="trier">Flight Id</th>
+                        <th id="villeDepart" @click="trier">Start City</th>
+                        <th>Arrival City</th>
+                        <th>Start Time</th>
+                        <th id="heureArriver" @click="trier">Arrival Time</th>
+                        <th>Flight Duration</th>
+                        <th>Airline Name</th>
+                        <th>Plane Marker</th>
+                        <th>Plane Ref</th>
+                        <th>Plane Type</th>
+                        <th>Plane Capacity</th>
+                        <th>Seats Free</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="vol of vols">
+                        <td>{{ vol.id}}</td>
+                        <td>{{ vol.villeDepart}}</td>
+                        <td>{{ vol.villeArriver }}</td>
+                        <td>{{ vol.heureDepart }}</td>
+                        <td>{{ vol.heureArriver }}</td>
+                        <td>{{ vol.tempVol }}</td>
+                        <td>{{ vol.nomCompagnie }}</td>
+                        <td>{{ vol.marqueAvion }}</td>
+                        <td>{{ vol.reference }}</td>
+                        <td>{{ vol.typeAvion }}</td>
+                        <td>{{ vol.capacite}}</td>
+                        <td>{{ vol.siegeLibre}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+    </div>
+    
+</body>
+</html>
